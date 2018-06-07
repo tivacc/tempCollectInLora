@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\bin\armjlink2.dll" 
+
+"D:\flyWork\hc110Lora\Debug\Exe\hc110Lora.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.4\arm\bin\armbat.dll" 
+
+--flash_loader "D:\flyWork\hc110Lora\mcu\EWARM\config\flashloader\HC32L110.board" 
+
+
+
+

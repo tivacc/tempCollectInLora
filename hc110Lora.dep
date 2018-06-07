@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2780869668</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\app\inc\Lora\Mac\region\Region.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Conf\Comissioning.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Crypto\cmac.h</file>
+      <file>$PROJ_DIR$\app\inc\components\sx1276\sx1276.h</file>
+      <file>$PROJ_DIR$\app\inc\components\sx1276\sx1276Regs-LoRa.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Core\lora.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Crypto\aes.h</file>
+      <file>$PROJ_DIR$\app\inc\components\rfEntry.h</file>
+      <file>$PROJ_DIR$\app\inc\components\sx1276\sx1276Regs-Fsk.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc110Lora.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserSpi.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Region.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\appMain.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\low_power.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\appMain.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\timeService.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts_hc32l110.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RegionCommon.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276.o</file>
+      <file>$PROJ_DIR$\Debug\List\hc110Lora.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\cmac.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\mcu\EWARM\config\hc32l110.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_hc32l110.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserRtc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\timeService.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_hc32l110.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utilities.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lora.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserSpi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\initDevice.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpuart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\RegionCommon.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lora.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\RegionCN470.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMac.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpuart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserLpt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cmac.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\initDevice.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\hc110Lora.bin</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpm.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\low_power.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lora.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserRtc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\RegionCN470.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpuart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cmac.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\low_power.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserRtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserGpioExt.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\appMain.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMac.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm0plus.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserUart.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\initDevice.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_hc32l110.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\clk.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\hc110Lora.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\ddl.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserLpt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\utilities.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Region.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\clk.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\bt.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\Region.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserGpioExt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rfEntry.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\bt.o</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpt.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rfEntry.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\ddl.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_hc32l110.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpt.o</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Mac\LoRaMac.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Mac\region\RegionCommon.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Mac\LoRaMacCrypto.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Mac\region\RegionCN470.h</file>
+      <file>$PROJ_DIR$\app\inc\ddl_device.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Mac\LoRaMacTest.h</file>
+      <file>$PROJ_DIR$\app\inc\hc32L110UserSpi.h</file>
+      <file>$PROJ_DIR$\app\inc\hc32L110UserGpioExt.h</file>
+      <file>$PROJ_DIR$\app\inc\hc32L110UserRtc.h</file>
+      <file>$PROJ_DIR$\app\inc\hc32L110UserUart.h</file>
+      <file>$PROJ_DIR$\app\inc\timeService.h</file>
+      <file>$PROJ_DIR$\app\src\Components\sx1276\sx1276.c</file>
+      <file>$PROJ_DIR$\app\src\Lora\Crypto\aes.c</file>
+      <file>$PROJ_DIR$\app\src\Lora\Crypto\cmac.c</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Mac\timer.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\utilities\low_power.h</file>
+      <file>$PROJ_DIR$\app\inc\initDevice.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\utilities\utilities.h</file>
+      <file>$PROJ_DIR$\app\inc\hc32L110UserLpt.h</file>
+      <file>$PROJ_DIR$\app\src\Components\rfEntry.c</file>
+      <file>$PROJ_DIR$\driver\inc\wdt.h</file>
+      <file>$PROJ_DIR$\app\inc\Lora\Phy\radio.h</file>
+      <file>$PROJ_DIR$\app\src\Lora\Core\lora.c</file>
+      <file>$PROJ_DIR$\app\src\Lora\Mac\region\Region.c</file>
+      <file>$PROJ_DIR$\app\src\hc32L110UserGpioExt.c</file>
+      <file>$PROJ_DIR$\app\src\queue.c</file>
+      <file>$PROJ_DIR$\app\src\hc32L110UserRtc.c</file>
+      <file>$PROJ_DIR$\driver\inc\bt.h</file>
+      <file>$PROJ_DIR$\driver\inc\ddl.h</file>
+      <file>$PROJ_DIR$\app\src\hc32L110UserLpt.c</file>
+      <file>$PROJ_DIR$\app\src\Lora\Utilities\low_power.c</file>
+      <file>$PROJ_DIR$\app\src\hc32L110UserSpi.c</file>
+      <file>$PROJ_DIR$\driver\inc\gpio.h</file>
+      <file>$PROJ_DIR$\driver\inc\lpm.h</file>
+      <file>$PROJ_DIR$\driver\inc\lpt.h</file>
+      <file>$PROJ_DIR$\driver\inc\rtc.h</file>
+      <file>$PROJ_DIR$\driver\inc\uart.h</file>
+      <file>$PROJ_DIR$\driver\inc\clk.h</file>
+      <file>$PROJ_DIR$\app\src\Lora\Utilities\utilities.c</file>
+      <file>$PROJ_DIR$\driver\inc\lpuart.h</file>
+      <file>$PROJ_DIR$\app\src\appMain.c</file>
+      <file>$PROJ_DIR$\app\src\hc32L110UserUart.c</file>
+      <file>$PROJ_DIR$\app\src\initDevice.c</file>
+      <file>$PROJ_DIR$\app\src\timeService.c</file>
+      <file>$PROJ_DIR$\app\src\Lora\Mac\region\RegionCN470.c</file>
+      <file>$PROJ_DIR$\app\src\Lora\Mac\LoRaMacCrypto.c</file>
+      <file>$PROJ_DIR$\app\src\Lora\Mac\region\RegionCommon.c</file>
+      <file>$PROJ_DIR$\app\src\Lora\Mac\LoRaMac.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\rfEntry.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\ddl.pbi</file>
+      <file>$PROJ_DIR$\mcu\common\base_types.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\bt.pbi</file>
+      <file>$PROJ_DIR$\driver\src\lpt.c</file>
+      <file>$PROJ_DIR$\driver\src\bt.c</file>
+      <file>$PROJ_DIR$\driver\src\clk.c</file>
+      <file>$PROJ_DIR$\driver\src\ddl.c</file>
+      <file>$PROJ_DIR$\driver\src\lpm.c</file>
+      <file>$PROJ_DIR$\driver\src\lpuart.c</file>
+      <file>$PROJ_DIR$\driver\src\rtc.c</file>
+      <file>$PROJ_DIR$\mcu\common\startup_hc32l110.s</file>
+      <file>$PROJ_DIR$\mcu\common\system_hc32l110.c</file>
+      <file>$PROJ_DIR$\mcu\common\system_hc32l110.h</file>
+      <file>$PROJ_DIR$\driver\inc\interrupts_hc32l110.h</file>
+      <file>$PROJ_DIR$\mcu\common\HC32L110.h</file>
+      <file>$PROJ_DIR$\driver\src\wdt.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\utilities.__cstat.et</file>
+      <file>$PROJ_DIR$\driver\src\gpio.c</file>
+      <file>$PROJ_DIR$\driver\src\uart.c</file>
+      <file>$PROJ_DIR$\driver\src\interrupts_hc32l110.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts_hc32l110.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timeService.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserGpioExt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\RegionCN470.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clk.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpm.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\RegionCommon.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupts_hc32l110.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\lpt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserSpi.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserLpt.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserUart.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hc32L110UserUart.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 90 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\hc110Lora.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>ILINK</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 28 64 76 103 189 54 110 69 187 53 74 197 82 58 185 63 77 201 16 111 113 70 100 49 47 109 81 29 22 33 32 35 95 57 10 83 104 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Components\sx1276\sx1276.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 92 124 45 93 108 4 142 135 164 50 61 114 146 120 85 68 56 36 176 132 148 131 96 3 123 5 26 198 20 55 175 183 78 66 141 203 41 177 151 118 88 9 184 8 150 1 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 93 36 45 20 68 198 203 26 85 96 55 41 146 142 164 61 79 88 183 9 177 78 108 92 66 184 175 151 176 118 135 50 3 8 4 120 123 150 141 124 132 148 5 1 114 131 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Crypto\aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 6 93 36 183 26 203 84 45 20 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 93 36 45 20 68 198 203 26 183 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Crypto\cmac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 9 203 36 164 2 93 61 6 131 45 198 20 68 183 88 50 79 56 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183 93 36 45 20 68 198 203 6 2 131 61 26 79 50 164 56 85 88 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Components\rfEntry.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 45 88 36 78 142 124 183 68 177 118 26 61 164 7 198 20 8 151 9 92 132 148 3 121 50 79 203 4 175 146 56 85 184 176 135 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135 61 93 36 45 20 68 198 203 26 79 183 50 3 8 4 7 142 164 56 85 88 9 177 78 108 92 66 184 175 151 176 146 118 124 132 148 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Core\lora.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 93 56 36 68 141 124 45 26 50 114 61 151 66 142 130 198 20 85 146 177 118 132 5 1 147 79 203 131 164 88 9 0 148 175 78 108 92 176 123 184 121 120 122 150 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 56 85 114 131 183 50 164 88 9 5 1 0 124 132 142 177 78 108 92 66 184 175 151 176 146 118 148 130 121 120 123 150 141 122 149 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\Region.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 45 36 93 56 142 114 85 68 183 164 108 0 26 198 20 132 79 61 148 175 78 66 128 1 117 203 124 50 177 151 118 88 9 184 92 176 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 56 93 36 45 20 68 198 203 26 85 183 128 124 61 79 132 142 164 88 9 177 78 108 92 66 184 175 151 176 146 118 148 114 131 1 0 117</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\hc32L110UserGpioExt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 93 198 20 164 184 121 26 177 118 85 36 183 79 45 68 142 151 92 61 203 146 175 88 9 78 108 66 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 121 142 164 56 85 88 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\hc32L110UserRtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 146 184 56 93 176 45 164 85 36 183 122 26 198 20 175 92 142 79 203 61 149 177 151 118 88 9 78 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 122 142 164 56 85 88 9 177 78 108 92 66 184 175 151 176 146 118 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\hc32L110UserLpt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 199</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 68 132 177 26 123 93 45 146 88 36 78 66 183 176 124 198 20 151 61 9 108 92 79 203 50 142 148 164 175 56 85 184 150 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 124 50 132 142 164 56 85 88 9 177 78 108 92 66 184 175 151 176 146 118 148 123 150 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Utilities\low_power.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 45 68 36 131 198 203 93 61 183 26 20 50 129 164 56 85 88 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 131 50 164 56 85 88 9 129</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\hc32L110UserSpi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142 36 203 26 177 118 88 78 66 93 183 120 79 151 61 9 108 92 176 45 198 20 68 146 164 175 56 85 184</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 120 142 164 56 85 88 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Utilities\utilities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198 164 93 36 56 183 68 26 61 131 20 85 84 45 203 79 50 88 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 93 36 45 20 68 198 203 26 61 79 183 131 50 164 56 85 88 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\appMain.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 45 93 142 0 121 175 50 135 68 122 164 183 26 92 130 198 20 120 56 85 36 184 141 5 147 79 203 132 123 124 177 151 118 61 88 9 78 108 176 1 131 66 148 150 149 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 130 121 142 164 56 85 88 9 177 78 108 92 66 184 175 151 176 146 118 132 148 120 123 150 141 122 149 124 50 5 1 114 131 0 135 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\hc32L110UserUart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 36 68 9 93 45 151 61 108 123 26 198 20 150 177 118 88 78 66 176 183 79 203 142 141 164 175 56 85 184 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 123 142 164 56 85 88 9 177 78 108 92 66 184 175 151 176 146 118 150 141</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\initDevice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79 183 150 61 36 26 130 93 184 146 175 176 124 148 50 177 203 92 142 164 56 85 132 149 151 147 45 198 20 68 78 108 66 118 88 9 123 121 120 122 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 177 78 108 92 66 184 151 142 164 56 85 88 9 175 146 176 118 150 148 147 130 121 132 120 123 141 122 149 124 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\timeService.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 175 92 36 203 61 26 93 142 124 79 50 146 164 56 85 184 176 45 198 20 68 132 148 177 151 118 88 9 78 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 93 36 45 20 68 198 203 26 79 183 124 50 132 142 164 56 85 88 9 177 78 108 92 66 184 175 151 176 146 118 148</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionCN470.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 93 50 88 0 45 146 135 85 68 61 79 124 177 118 92 131 183 114 117 26 198 20 55 151 9 142 56 96 128 115 203 41 132 148 164 175 78 184 176 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 56 93 36 45 20 68 198 203 26 85 183 96 55 41 135 61 79 128 124 132 142 164 88 9 177 78 108 92 66 184 175 151 176 146 118 148 114 131 0 115 117</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\LoRaMacCrypto.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 196</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 164 198 2 20 93 26 88 36 131 45 68 183 61 9 6 116 203 50 79 56 85 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84 93 36 45 20 68 198 203 26 183 131 61 79 50 164 56 85 88 9 6 2 116</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionCommon.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 203 36 79 175 78 132 61 184 128 148 183 26 164 114 41 142 146 56 176 96 131 115 85 45 198 20 68 55 124 50 177 151 118 88 9 92 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 56 93 36 45 20 68 198 203 26 85 183 96 55 41 128 124 61 79 132 142 164 88 9 177 78 108 92 66 184 175 151 176 146 118 148 131 114 115</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\LoRaMac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 93 177 148 116 118 61 122 26 184 132 183 114 85 68 146 88 36 176 131 56 135 124 0 119 198 20 151 9 92 142 50 203 79 149 164 175 78 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50 56 93 36 45 20 68 198 203 26 85 183 135 61 79 122 142 164 88 9 177 78 108 92 66 184 175 151 176 146 118 149 124 132 148 114 131 0 116 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\lpt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176 175 36 183 26 198 20 93 78 66 164 146 56 45 68 108 92 142 177 151 118 61 88 9 79 203 85 184 148</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\bt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 99</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142 151 61 26 92 9 79 93 36 183 177 118 88 203 85 184 176 164 175 146 56 45 198 20 68 78 108 66 141</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\clk.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 36 142 183 26 198 20 93 78 66 164 146 56 45 68 108 92 176 177 151 118 61 88 9 79 203 85 184</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 146 176 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\ddl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 203 85 93 164 9 79 146 61 184 175 88 183 177 151 118 56 26 92 142 45 198 20 68 78 108 66 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\lpm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 151 203 85 93 183 184 142 177 118 56 164 175 146 61 88 9 79 26 92 147 45 198 20 68 78 108 66 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\lpuart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175 36 183 26 198 20 93 78 66 176 164 146 56 45 68 108 92 142 177 151 118 61 88 9 79 203 85 184 153</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 142 9 79 36 183 151 61 26 177 118 88 203 85 92 176 164 175 146 56 45 198 20 68 78 184 149 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mcu\common\startup_hc32l110.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mcu\common\system_hc32l110.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 36 9 79 175 88 198 20 93 26 78 66 183 177 142 56 45 68 108 92 164 146 203 85 184 151 118 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 142 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\wdt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 61 203 142 85 93 146 164 9 79 184 175 88 183 176 177 151 118 56 26 92 134 45 198 20 68 78 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 191</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 177 118 183 142 88 36 203 85 184 151 61 9 79 26 92 146 176 164 175 56 45 198 20 68 78 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 142 151 61 26 9 79 93 36 183 177 118 88 203 85 184 176 164 175 146 56 45 198 20 68 78 108 66 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\driver\src\interrupts_hc32l110.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 203 175 85 93 88 184 164 146 61 9 183 176 177 151 118 56 79 26 92 142 45 198 20 68 78 108 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142 164 61 93 36 45 20 68 198 203 26 79 56 85 88 183 9 177 78 108 92 66 184 175 151 176 146 118</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\adc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionAU915.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionAS923.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\queue.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionCN779.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionEU433.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionUS915-Hybrid.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionIN865.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionEU868.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionKR920.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\app\src\Lora\Mac\region\RegionUS915.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\vc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\i2c.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\reset.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\crc.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\flash.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\pca.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\adt.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\spi.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\lvd.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\driver\src\trim.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

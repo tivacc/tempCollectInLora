@@ -1,0 +1,578 @@
+###############################################################################
+#
+# IAR ELF Linker V7.60.1.11101/W32 for ARM                06/Mar/2018  15:18:27
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  D:\flyWork\hc110Lora\Debug\Exe\hc110Lora.out
+#    Map file     =  D:\flyWork\hc110Lora\Debug\List\hc110Lora.map
+#    Command line =  
+#        D:\flyWork\hc110Lora\Debug\Obj\aes.o
+#        D:\flyWork\hc110Lora\Debug\Obj\appMain.o
+#        D:\flyWork\hc110Lora\Debug\Obj\bt.o
+#        D:\flyWork\hc110Lora\Debug\Obj\clk.o
+#        D:\flyWork\hc110Lora\Debug\Obj\cmac.o
+#        D:\flyWork\hc110Lora\Debug\Obj\ddl.o
+#        D:\flyWork\hc110Lora\Debug\Obj\gpio.o
+#        D:\flyWork\hc110Lora\Debug\Obj\hc32L110UserGpioExt.o
+#        D:\flyWork\hc110Lora\Debug\Obj\hc32L110UserLpt.o
+#        D:\flyWork\hc110Lora\Debug\Obj\hc32L110UserRtc.o
+#        D:\flyWork\hc110Lora\Debug\Obj\hc32L110UserSpi.o
+#        D:\flyWork\hc110Lora\Debug\Obj\hc32L110UserUart.o
+#        D:\flyWork\hc110Lora\Debug\Obj\initDevice.o
+#        D:\flyWork\hc110Lora\Debug\Obj\interrupts_hc32l110.o
+#        D:\flyWork\hc110Lora\Debug\Obj\lora.o
+#        D:\flyWork\hc110Lora\Debug\Obj\LoRaMac.o
+#        D:\flyWork\hc110Lora\Debug\Obj\LoRaMacCrypto.o
+#        D:\flyWork\hc110Lora\Debug\Obj\low_power.o
+#        D:\flyWork\hc110Lora\Debug\Obj\lpm.o
+#        D:\flyWork\hc110Lora\Debug\Obj\lpt.o
+#        D:\flyWork\hc110Lora\Debug\Obj\lpuart.o
+#        D:\flyWork\hc110Lora\Debug\Obj\Region.o
+#        D:\flyWork\hc110Lora\Debug\Obj\RegionCN470.o
+#        D:\flyWork\hc110Lora\Debug\Obj\RegionCommon.o
+#        D:\flyWork\hc110Lora\Debug\Obj\rfEntry.o
+#        D:\flyWork\hc110Lora\Debug\Obj\rtc.o
+#        D:\flyWork\hc110Lora\Debug\Obj\startup_hc32l110.o
+#        D:\flyWork\hc110Lora\Debug\Obj\sx1276.o
+#        D:\flyWork\hc110Lora\Debug\Obj\system_hc32l110.o
+#        D:\flyWork\hc110Lora\Debug\Obj\timeService.o
+#        D:\flyWork\hc110Lora\Debug\Obj\uart.o
+#        D:\flyWork\hc110Lora\Debug\Obj\utilities.o
+#        D:\flyWork\hc110Lora\Debug\Obj\wdt.o -o
+#        D:\flyWork\hc110Lora\Debug\Exe\hc110Lora.out --map
+#        D:\flyWork\hc110Lora\Debug\List\hc110Lora.map --config
+#        D:\flyWork\hc110Lora\mcu\EWARM\config\hc32l110.icf --semihosting
+#        --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x00007fff] { ro };
+"P2":  place in [from 0x20000000 to 0x20000fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x00000000    0xc0  startup_hc32l110.o [1]
+                            - 0x000000c0    0xc0
+
+"P1":                                     0x45bd
+  .text              ro code  0x000000c0  0x1320  sx1276.o [1]
+  .text              ro code  0x000013e0   0x1b8  timeService.o [1]
+  .text              ro code  0x00001598    0xe0  I32DivModFast.o [5]
+  .text              ro code  0x00001678    0x8c  ddl.o [1]
+  .text              ro code  0x00001704    0x34  I32ToDbl.o [4]
+  .text              ro code  0x00001738    0xc2  DblDiv.o [4]
+  .text              ro code  0x000017fa   0x184  DblMul.o [4]
+  .text              ro code  0x0000197e     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x00001980    0x52  DblToI32.o [4]
+  .text              ro code  0x000019d2   0x1a8  DblAddSub.o [4]
+  .text              ro code  0x00001b7a     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x00001b7c    0x48  round.o [4]
+  .text              ro code  0x00001bc4    0x58  ceil.o [4]
+  .text              ro code  0x00001c1c    0x32  DblCmpGe.o [4]
+  .text              ro code  0x00001c4e     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x00001c50    0x58  floor.o [4]
+  .text              ro code  0x00001ca8    0x14  utilities.o [1]
+  .text              ro code  0x00001cbc    0x4c  ABImemset.o [5]
+  .text              ro code  0x00001d08   0x21c  gpio.o [1]
+  .text              ro code  0x00001f24   0x1a0  hc32L110UserSpi.o [1]
+  .text              ro code  0x000020c4    0xa8  hc32L110UserLpt.o [1]
+  .text              ro code  0x0000216c     0x2  IntDivZer.o [5]
+  .text              ro code  0x0000216e     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x00002170    0x84  xdint.o [4]
+  .text              ro code  0x000021f4    0xf4  lpt.o [1]
+  .text              ro code  0x000022e8   0x58c  clk.o [1]
+  .text              ro code  0x00002874   0x16e  interrupts_hc32l110.o [1]
+  .text              ro code  0x000029e2     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x000029e4    0x48  system_hc32l110.o [1]
+  .text              ro code  0x00002a2c    0x24  ABIassert.o [6]
+  .text              ro code  0x00002a50    0xb0  hc32L110UserGpioExt.o [1]
+  .text              ro code  0x00002b00   0x64c  uart.o [1]
+  .text              ro code  0x0000314c   0x140  lpuart.o [1]
+  .text              ro code  0x0000328c   0x378  bt.o [1]
+  .text              ro code  0x00003604    0x2c  wdt.o [1]
+  .text              ro code  0x00003630   0x87c  rtc.o [1]
+  .text              ro code  0x00003eac     0xa  abort.o [3]
+  .text              ro code  0x00003eb6     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x00003eb8    0x14  exit.o [6]
+  .text              ro code  0x00003ecc   0x1f0  lpm.o [1]
+  .text              ro code  0x000040bc   0x176  hc32L110UserUart.o [1]
+  .text              ro code  0x00004232     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x00004234    0xe4  hc32L110UserRtc.o [1]
+  .text              ro code  0x00004318    0x92  rfEntry.o [1]
+  .text              ro code  0x000043aa     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x000043ac    0x88  appMain.o [1]
+  .text              ro code  0x00004434    0x44  initDevice.o [1]
+  .text              ro code  0x00004478    0x10  lora.o [1]
+  .rodata            const    0x00004488    0x64  rfEntry.o [1]
+  .text              ro code  0x000044ec    0x3c  zero_init3.o [5]
+  .text              ro code  0x00004528    0x3c  packbits_init_single.o [5]
+  .text              ro code  0x00004564    0x28  startup_hc32l110.o [1]
+  .text              ro code  0x0000458c    0x28  data_init.o [5]
+  .iar.init_table    const    0x000045b4    0x20  - Linker created -
+  .text              ro code  0x000045d4    0x1a  cmain.o [5]
+  .text              ro code  0x000045ee     0x4  low_level_init.o [3]
+  .text              ro code  0x000045f2     0x8  exit.o [3]
+  .text              ro code  0x000045fa     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x000045fc     0xa  cexit.o [5]
+  .text              ro code  0x00004606     0xc  cstartup_M.o [5]
+  .text              ro code  0x00004612     0x2  startup_hc32l110.o [1]
+  .text              ro code  0x00004614     0x2  startup_hc32l110.o [1]
+  .rodata            const    0x00004616     0x0  zero_init3.o [5]
+  .rodata            const    0x00004616     0x0  packbits_init_single.o [5]
+  Initializer bytes  const    0x00004616    0x67  <for P2-1>
+                            - 0x0000467d  0x45bd
+
+"P2", part 1 of 3:                         0x2e0
+  P2-1                        0x20000000   0x2e0  <Init block>
+    .data            inited   0x20000000    0x34  appMain.o [1]
+    .data            inited   0x20000034    0x4c  lora.o [1]
+    .data            inited   0x20000080    0x18  rfEntry.o [1]
+    .data            inited   0x20000098   0x21c  sx1276.o [1]
+    .data            inited   0x200002b4     0x4  system_hc32l110.o [1]
+    .data            inited   0x200002b8    0x28  uart.o [1]
+                            - 0x200002e0   0x2e0
+
+"P2", part 2 of 3:                         0x100
+  CSTACK                      0x200002e0   0x100  <Block>
+    CSTACK           uninit   0x200002e0   0x100  <Block tail>
+                            - 0x200003e0   0x100
+
+"P2", part 3 of 3:                         0x194
+  .bss               zero     0x200003e0   0x104  hc32L110UserUart.o [1]
+  .bss               zero     0x200004e4    0x40  hc32L110UserGpioExt.o [1]
+  .bss               zero     0x20000524    0x20  lora.o [1]
+  .bss               zero     0x20000544     0xc  bt.o [1]
+  .bss               zero     0x20000550     0xc  lpuart.o [1]
+  .bss               zero     0x2000055c     0x8  rtc.o [1]
+  .bss               zero     0x20000564     0x4  lpt.o [1]
+  .bss               zero     0x20000568     0x4  timeService.o [1]
+  .bss               zero     0x2000056c     0x4  wdt.o [1]
+  .bss               zero     0x20000570     0x1  sx1276.o [1]
+                            - 0x20000571   0x191
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x191:
+          0x200003e0  0x191
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x67 (13% of destination):
+          0x00004616   0x67
+    1 destination range, total size 0x2e0:
+          0x20000000  0x2e0
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+D:\flyWork\hc110Lora\Debug\Obj: [1]
+    appMain.o                   136        7       52
+    bt.o                        888                12
+    clk.o                     1 420
+    ddl.o                       140
+    gpio.o                      540
+    hc32L110UserGpioExt.o       176                64
+    hc32L110UserLpt.o           168
+    hc32L110UserRtc.o           228
+    hc32L110UserSpi.o           416
+    hc32L110UserUart.o          374               260
+    initDevice.o                 68
+    interrupts_hc32l110.o       366
+    lora.o                       16       10      108
+    lpm.o                       496
+    lpt.o                       244                 4
+    lpuart.o                    320                12
+    rfEntry.o                   146      104       24
+    rtc.o                     2 172                 8
+    startup_hc32l110.o          254
+    sx1276.o                  4 896       75      541
+    system_hc32l110.o            72        1        4
+    timeService.o               440                 4
+    uart.o                    1 612        6       40
+    utilities.o                  20
+    wdt.o                        44                 4
+    -------------------------------------------------
+    Total:                   15 652      203    1 137
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    abort.o                      10
+    exit.o                        8
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       22
+
+m6M_tl.a: [4]
+    DblAddSub.o                 424
+    DblCmpGe.o                   50
+    DblDiv.o                    194
+    DblMul.o                    388
+    DblToI32.o                   82
+    I32ToDbl.o                   52
+    ceil.o                       88
+    floor.o                      88
+    round.o                      72
+    xdint.o                     132
+    -------------------------------------------------
+    Total:                    1 570
+
+rt6M_tl.a: [5]
+    ABImemset.o                  76
+    I32DivModFast.o             224
+    IntDivZer.o                   2
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       60
+    zero_init3.o                 60
+    -------------------------------------------------
+    Total:                      510
+
+shb_l.a: [6]
+    ABIassert.o                  36
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       56
+
+    Linker created                        32      256
+-----------------------------------------------------
+    Grand Total:             17 810      235    1 393
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x000045b4          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x000045d4          --   Gb  - Linker created -
+?main                   0x000045d5         Code  Gb  cmain.o [5]
+AppData                 0x20000034    0x8  Data  Lc  lora.o [1]
+AppDataBuff             0x20000524   0x20  Data  Lc  lora.o [1]
+AppSKey                 0x20000070   0x10  Data  Lc  lora.o [1]
+BoardCallbacks          0x20000080   0x18  Data  Lc  rfEntry.o [1]
+Bt_ARRSet               0x000034ad   0x66  Code  Gb  bt.o [1]
+Bt_Cnt16Set             0x0000351d   0x66  Code  Gb  bt.o [1]
+Bt_Init                 0x000032ad  0x1a4  Code  Gb  bt.o [1]
+Bt_Run                  0x00003455   0x54  Code  Gb  bt.o [1]
+CSTACK$$Base            0x200002e0          --   Gb  - Linker created -
+CSTACK$$Limit           0x200003e0          --   Gb  - Linker created -
+Change_DateTimeFormat   0x00003abd   0x16  Code  Gb  rtc.o [1]
+Check_BCD_Format        0x00003b95   0x22  Code  Gb  rtc.o [1]
+Clk_Enable              0x000026ed   0xa2  Code  Gb  clk.o [1]
+Clk_GetClkRdy           0x0000250d   0x30  Code  Gb  clk.o [1]
+Clk_GetHClkFreq         0x00002369   0x60  Code  Gb  clk.o [1]
+Clk_GetPClkFreq         0x000023d1   0x12  Code  Gb  clk.o [1]
+Clk_Init                0x000023e5   0x60  Code  Gb  clk.o [1]
+Clk_SetHClkDiv          0x00002591   0x40  Code  Gb  clk.o [1]
+Clk_SetPClkDiv          0x000025d9   0x30  Code  Gb  clk.o [1]
+Clk_SetPeripheralGate   0x0000278f   0x1a  Code  Gb  clk.o [1]
+Clk_SetRCHFreq          0x0000253d   0x4c  Code  Gb  clk.o [1]
+Clk_SetRCL_StableTime   0x0000265b   0x40  Code  Gb  clk.o [1]
+Clk_SetSource           0x000024cd   0x30  Code  Gb  clk.o [1]
+Clk_SetXTH_StableTime   0x00002617   0x44  Code  Gb  clk.o [1]
+Clk_SetXTL_StableTime   0x0000269b   0x44  Code  Gb  clk.o [1]
+Clk_SwitchTo            0x000022e9   0x7c  Code  Gb  clk.o [1]
+Clk_SysTickConfig       0x000027cd   0x86  Code  Gb  clk.o [1]
+Cnst_Month_Tbl          0x00003b88    0xc  Data  Gb  rtc.o [1]
+DeviceState             0x20000049    0x1  Data  Gb  lora.o [1]
+DioIrq                  0x20000208   0x18  Data  Gb  sx1276.o [1]
+EnableNvic              0x00002875   0x4e  Code  Gb  interrupts_hc32l110.o [1]
+FskBandwidths           0x000002bc   0xb0  Data  Gb  sx1276.o [1]
+GetFskBandwidthRegValue
+                        0x00000299   0x22  Code  Lc  sx1276.o [1]
+Get_Month_Max_Day       0x00003b6d   0x1a  Code  Gb  rtc.o [1]
+Gpio_EnableIrq          0x00001ed3    0x6  Code  Gb  gpio.o [1]
+Gpio_GetIO              0x00001e5f    0x6  Code  Gb  gpio.o [1]
+Gpio_IRQHandler         0x00002a51   0x32  Code  Gb  hc32L110UserGpioExt.o [1]
+Gpio_InitIO             0x00001d2b   0x6a  Code  Gb  gpio.o [1]
+Gpio_InitIOExt          0x00001d95   0xac  Code  Gb  gpio.o [1]
+Gpio_SetAnalog          0x00001d09   0x22  Code  Gb  gpio.o [1]
+Gpio_SetIO              0x00001e41   0x1e  Code  Gb  gpio.o [1]
+HardFault_Handler       0x000028d9   0x10  Code  Gb  interrupts_hc32l110.o [1]
+IRQ000_Handler          0x000028e9    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ001_Handler          0x000028f3    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ002_Handler          0x000028fd    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ003_Handler          0x00002907    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ006_Handler          0x00002911    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ007_Handler          0x0000291b    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ008_Handler          0x00002925    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ010_Handler          0x0000292f    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ012_Handler          0x00002939    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ014_Handler          0x00002943    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ015_Handler          0x0000294d    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ016_Handler          0x00002957    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ017_Handler          0x00002961    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ018_Handler          0x0000296b    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ019_Handler          0x00002975    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ020_Handler          0x0000297f    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ021_Handler          0x00002989    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ022_Handler          0x00002993    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ023_Handler          0x0000299d    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ024_Handler          0x000029a7    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ026_Handler          0x000029b1    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ027_Handler          0x000029bb    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ028_Handler          0x000029c5    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ030_Handler          0x000029cf    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IRQ031_Handler          0x000029d9    0xa  Code  Gb  interrupts_hc32l110.o [1]
+IsTxConfirmed           0x20000048    0x1  Data  Lc  lora.o [1]
+LPUart_ClrStatus        0x0000314d   0x50  Code  Gb  lpuart.o [1]
+LastSyncWord            0x20000570    0x1  Data  Lc  sx1276.o [1]
+Leap_Month_Base         0x00003b54    0xc  Data  Gb  rtc.o [1]
+LoRaBoardCallbacks      0x20000104    0x4  Data  Lc  sx1276.o [1]
+LoRaMacCallbacks        0x2000005c    0x4  Data  Lc  lora.o [1]
+LoRaMacPrimitives       0x2000004c    0xc  Data  Lc  lora.o [1]
+LoRaParamInit           0x20000004   0x10  Data  Gb  appMain.o [1]
+LoRaParamInit           0x20000058    0x4  Data  Lc  lora.o [1]
+Log2                    0x00001679   0x14  Code  Gb  ddl.o [1]
+LpTim_IRQHandler        0x00002203    0xa  Code  Gb  lpt.o [1]
+LpUart_IRQHandler       0x0000319d   0x4a  Code  Gb  lpuart.o [1]
+Lpm_Config              0x00003ecd   0x9a  Code  Gb  lpm.o [1]
+Lpm_GotoLpmMode         0x00003f6d    0x4  Code  Gb  lpm.o [1]
+Lpt_ARRSet              0x000022a3   0x1a  Code  Gb  lpt.o [1]
+Lpt_ClearIntFlag        0x000021ff    0x4  Code  Gb  lpt.o [1]
+Lpt_Cnt16Get            0x000022bd    0x8  Code  Gb  lpt.o [1]
+Lpt_EnableIrq           0x0000220d    0x8  Code  Gb  lpt.o [1]
+Lpt_GetIntFlag          0x000021f5    0xa  Code  Gb  lpt.o [1]
+Lpt_Init                0x00002215   0x72  Code  Gb  lpt.o [1]
+Lpt_Run                 0x00002287    0x6  Code  Gb  lpt.o [1]
+Lpt_Stop                0x00002295    0x2  Code  Gb  lpt.o [1]
+NVIC_SetPriority        0x00002b01   0x34  Code  Lc  uart.o [1]
+NextTx                  0x2000004a    0x1  Data  Lc  lora.o [1]
+NonLeap_Month_Base      0x00003b60    0xc  Data  Gb  rtc.o [1]
+NwkSKey                 0x20000060   0x10  Data  Lc  lora.o [1]
+Radio                   0x00004488   0x64  Data  Gb  rfEntry.o [1]
+RadioEvents             0x20000100    0x4  Data  Lc  sx1276.o [1]
+RadioRegsInit           0x000010b0   0x30  Data  Gb  sx1276.o [1]
+Region$$Table$$Base     0x000045b4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x000045d4          --   Gb  - Linker created -
+RtcAlarmCb              0x00004237    0x2  Code  Lc  hc32L110UserRtc.o [1]
+RtcCycCb                0x00004235    0x2  Code  Lc  hc32L110UserRtc.o [1]
+Rtc_CalWeek             0x00003ae5   0x70  Code  Gb  rtc.o [1]
+Rtc_CheckDateTimeFormat
+                        0x00003bb9   0xd4  Code  Gb  rtc.o [1]
+Rtc_CheckLeapYear       0x00003ad3   0x10  Code  Gb  rtc.o [1]
+Rtc_DisableFunc         0x000039e9   0x64  Code  Gb  rtc.o [1]
+Rtc_EnableFunc          0x00003979   0x64  Code  Gb  rtc.o [1]
+Rtc_IRQHandler          0x00003e37   0x3a  Code  Gb  rtc.o [1]
+Rtc_Init                0x00003dd5   0x62  Code  Gb  rtc.o [1]
+Rtc_ReadDateTime        0x00003d35   0x86  Code  Gb  rtc.o [1]
+Rtc_SelClk              0x00003631   0x4a  Code  Gb  rtc.o [1]
+Rtc_SetAmPm             0x0000394d   0x14  Code  Gb  rtc.o [1]
+Rtc_SetCyc              0x0000374d   0x90  Code  Gb  rtc.o [1]
+Rtc_WriteDateTime       0x00003c91   0xa0  Code  Gb  rtc.o [1]
+RxChainCalibration      0x000001f7   0x8e  Code  Lc  sx1276.o [1]
+RxTimeoutSyncWord       0x20000240   0x10  Data  Gb  sx1276.o [1]
+RxTimeoutTimer          0x20000230   0x10  Data  Gb  sx1276.o [1]
+RxTxBuffer              0x20000108  0x100  Data  Lc  sx1276.o [1]
+SX1276                  0x20000098   0x68  Data  Gb  sx1276.o [1]
+SX1276BoardInit         0x000000c1    0x6  Code  Gb  sx1276.o [1]
+SX1276CheckRfFrequency  0x000043a7    0x4  Code  Gb  rfEntry.o [1]
+SX1276GetRadioWakeUpTime
+                        0x00000fd1    0x4  Code  Gb  sx1276.o [1]
+SX1276GetStatus         0x00000139    0x6  Code  Gb  sx1276.o [1]
+SX1276GetTimeOnAir      0x00000849  0x1c2  Code  Gb  sx1276.o [1]
+SX1276Init              0x000000c7   0x72  Code  Gb  sx1276.o [1]
+SX1276IoDeInit          0x00004343    0x2  Code  Gb  rfEntry.o [1]
+SX1276IoInit            0x00004319    0xe  Code  Gb  rfEntry.o [1]
+SX1276IoIrqInit         0x0000432d   0x16  Code  Gb  rfEntry.o [1]
+SX1276IsChannelFree     0x00000183   0x36  Code  Gb  sx1276.o [1]
+SX1276OnDio0Irq         0x000010e1  0x228  Code  Gb  sx1276.o [1]
+SX1276OnDio1Irq         0x00001309   0xce  Code  Gb  sx1276.o [1]
+SX1276OnTimeoutIrq      0x00000fd5   0xca  Code  Gb  sx1276.o [1]
+SX1276Random            0x000001b9   0x3e  Code  Gb  sx1276.o [1]
+SX1276Read              0x00000f6d    0xe  Code  Gb  sx1276.o [1]
+SX1276ReadBuffer        0x00000f83    0x8  Code  Gb  sx1276.o [1]
+SX1276ReadFifo          0x00000f93    0x8  Code  Gb  sx1276.o [1]
+SX1276ReadRssi          0x00000e45   0x3e  Code  Gb  sx1276.o [1]
+SX1276Reset             0x00000e83   0x36  Code  Gb  sx1276.o [1]
+SX1276Send              0x00000a11   0xf8  Code  Gb  sx1276.o [1]
+SX1276SetChannel        0x0000013f   0x44  Code  Gb  sx1276.o [1]
+SX1276SetMaxPayloadLength
+                        0x00000f9b   0x2c  Code  Gb  sx1276.o [1]
+SX1276SetModem          0x00000ee1   0x5c  Code  Gb  sx1276.o [1]
+SX1276SetOpMode         0x00000eb9   0x28  Code  Gb  sx1276.o [1]
+SX1276SetRfTxPower      0x00004345   0x62  Code  Gb  rfEntry.o [1]
+SX1276SetRx             0x00000b75  0x1ea  Code  Gb  sx1276.o [1]
+SX1276SetRxConfig       0x0000036d  0x29e  Code  Gb  sx1276.o [1]
+SX1276SetSleep          0x00000b09   0x1c  Code  Gb  sx1276.o [1]
+SX1276SetStby           0x00000b51   0x1a  Code  Gb  sx1276.o [1]
+SX1276SetSyncWord       0x00000f3d   0x18  Code  Gb  sx1276.o [1]
+SX1276SetTx             0x00000d65   0xae  Code  Gb  sx1276.o [1]
+SX1276SetTxConfig       0x00000621  0x21e  Code  Gb  sx1276.o [1]
+SX1276StartCad          0x00000e13   0x2e  Code  Gb  sx1276.o [1]
+SX1276Write             0x00000f65    0x8  Code  Gb  sx1276.o [1]
+SX1276WriteBuffer       0x00000f7b    0x8  Code  Gb  sx1276.o [1]
+SX1276WriteFifo         0x00000f8b    0x8  Code  Gb  sx1276.o [1]
+SystemCoreClock         0x200002b4    0x4  Data  Gb  system_hc32l110.o [1]
+SystemCoreClockUpdate   0x000029e5    0xc  Code  Gb  system_hc32l110.o [1]
+SystemInit              0x000029f1   0x34  Code  Gb  system_hc32l110.o [1]
+Tim_IRQHandler          0x0000328d   0x1e  Code  Gb  bt.o [1]
+TxTimeoutTimer          0x20000220   0x10  Data  Gb  sx1276.o [1]
+UartGetInternDataPtr    0x00002b35   0x24  Code  Lc  uart.o [1]
+Uart_ClrStatus          0x00002e61   0x76  Code  Gb  uart.o [1]
+Uart_EnableFunc         0x00002d9b   0x38  Code  Gb  uart.o [1]
+Uart_EnableIrq          0x00002b59   0x64  Code  Gb  uart.o [1]
+Uart_GetStatus          0x00002ddd   0x76  Code  Gb  uart.o [1]
+Uart_IRQHandler         0x00002fbd   0x56  Code  Gb  uart.o [1]
+Uart_Init               0x00003015   0xc8  Code  Gb  uart.o [1]
+Uart_ReceiveData        0x00002f89   0x34  Code  Gb  uart.o [1]
+Uart_SendData           0x00002f3d   0x4c  Code  Gb  uart.o [1]
+Uart_SetBaudRate        0x00002d31   0x6a  Code  Gb  uart.o [1]
+Uart_SetMode            0x00002bfd   0x62  Code  Gb  uart.o [1]
+Uart_SetMultiMode       0x00002cc9   0x54  Code  Gb  uart.o [1]
+Wdt_IRQHandler          0x00003605   0x22  Code  Gb  wdt.o [1]
+_GpioEnableIrq          0x00001e65   0x6e  Code  Gb  gpio.o [1]
+__aeabi_assert          0x00002a2d   0x24  Code  Gb  ABIassert.o [6]
+__aeabi_cdrcmple        0x00001c1d         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x00001981         Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x000019a5         Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x000019d3         Code  Gb  DblAddSub.o [4]
+__aeabi_ddiv            0x00001739         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x000017fb         Code  Gb  DblMul.o [4]
+__aeabi_i2d             0x00001705         Code  Gb  I32ToDbl.o [4]
+__aeabi_idiv            0x000015c5         Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x0000216d         Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x000015c5         Code  Gb  I32DivModFast.o [5]
+__aeabi_memclr          0x00001d01         Code  Gb  ABImemset.o [5]
+__aeabi_memclr4         0x00001d05         Code  Gb  ABImemset.o [5]
+__aeabi_memclr8         0x00001d05         Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x00001719         Code  Gb  I32ToDbl.o [4]
+__aeabi_uidiv           0x000015cb         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x000015cb         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x000045d5         Code  Gb  cmain.o [5]
+__exit                  0x00003eb9   0x14  Code  Gb  exit.o [6]
+__iar_Dint              0x00002171   0x84  Code  Gb  xdint.o [4]
+__iar_Memset4_word      0x00001cd1         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x00001cbd         Code  Gb  ABImemset.o [5]
+__iar_ceil              0x00001bc5         Code  Gb  ceil.o [4]
+__iar_ceill             0x00001bc5         Code  Gb  ceil.o [4]
+__iar_d2uiz             0x000019a9         Code  Gb  DblToI32.o [4]
+__iar_data_init3        0x0000458d   0x28  Code  Gb  data_init.o [5]
+__iar_floor             0x00001c51         Code  Gb  floor.o [4]
+__iar_floorl            0x00001c51         Code  Gb  floor.o [4]
+__iar_packbits_init_single3
+                        0x00004529   0x3c  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x00004607         Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x0000171d         Code  Gb  I32ToDbl.o [4]
+__iar_zero_init3        0x000044ed   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x000045ef    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  startup_hc32l110.o [1]
+_call_main              0x000045e1         Code  Gb  cmain.o [5]
+_exit                   0x000045fd         Code  Gb  cexit.o [5]
+_main                   0x000045eb         Code  Gb  cmain.o [5]
+abort                   0x00003ead    0xa  Code  Gb  abort.o [3]
+ceil                    0x00001bc5         Code  Gb  ceil.o [4]
+ceill                   0x00001bc5         Code  Gb  ceil.o [4]
+ddl_memclr              0x0000168d   0x12  Code  Gb  ddl.o [1]
+delay100us              0x000016cd   0x2c  Code  Gb  ddl.o [1]
+delay1ms                0x0000169f   0x2e  Code  Gb  ddl.o [1]
+errIntCallback          0x000040d7    0x2  Code  Gb  hc32L110UserUart.o [1]
+exit                    0x000045f3    0x8  Code  Gb  exit.o [3]
+floor                   0x00001c51         Code  Gb  floor.o [4]
+floorl                  0x00001c51         Code  Gb  floor.o [4]
+gpioCallbacks           0x200004e4   0x40  Data  Gb  hc32L110UserGpioExt.o [1]
+hc32L110GpioExtCbRegister
+                        0x00002acd    0x8  Code  Gb  hc32L110UserGpioExt.o [1]
+hc32L110GpioExtDispatcher
+                        0x00002ad5   0x24  Code  Gb  hc32L110UserGpioExt.o [1]
+hc32L110GpioExtInit     0x00002a83   0x4a  Code  Gb  hc32L110UserGpioExt.o [1]
+hc32L110LptCnt2Ms       0x000020ed    0xa  Code  Gb  hc32L110UserLpt.o [1]
+hc32L110LptGetCounter   0x0000213d    0x8  Code  Gb  hc32L110UserLpt.o [1]
+hc32L110LptInit         0x000020f7   0x46  Code  Gb  hc32L110UserLpt.o [1]
+hc32L110LptMs2Cnt       0x000020dd   0x10  Code  Gb  hc32L110UserLpt.o [1]
+hc32L110LptStart        0x00002145   0x1e  Code  Gb  hc32L110UserLpt.o [1]
+hc32L110RtcGetCalendarValue
+                        0x000042d3   0x34  Code  Lc  hc32L110UserRtc.o [1]
+hc32L110RtcGetCounter   0x000042bf   0x14  Code  Gb  hc32L110UserRtc.o [1]
+hc32L110RtcInit         0x00004239   0x86  Code  Gb  hc32L110UserRtc.o [1]
+hc32L110SpiDisable      0x00001f65    0x4  Code  Lc  hc32L110UserSpi.o [1]
+hc32L110SpiEnable       0x00001f5f    0x6  Code  Lc  hc32L110UserSpi.o [1]
+hc32L110SpiIoInit       0x00001f25   0x3a  Code  Gb  hc32L110UserSpi.o [1]
+hc32L110SpiRead         0x00002011   0x1e  Code  Gb  hc32L110UserSpi.o [1]
+hc32L110SpiReadBuffer   0x0000204d   0x2e  Code  Gb  hc32L110UserSpi.o [1]
+hc32L110SpiReadFifo     0x000020a9    0xe  Code  Gb  hc32L110UserSpi.o [1]
+hc32L110SpiWrite        0x0000202f   0x1e  Code  Gb  hc32L110UserSpi.o [1]
+hc32L110SpiWriteBuffer  0x0000207b   0x2e  Code  Gb  hc32L110UserSpi.o [1]
+hc32L110SpiWriteFifo    0x000020b7    0xe  Code  Gb  hc32L110UserSpi.o [1]
+hc32L110UartInit        0x000040d9  0x122  Code  Gb  hc32L110UserUart.o [1]
+hc32L110UartSend        0x00004215   0x1e  Code  Gb  hc32L110UserUart.o [1]
+initDevice              0x00004435   0x44  Code  Gb  initDevice.o [1]
+lora_Init               0x00004479    0xa  Code  Gb  lora.o [1]
+lptIntCallback          0x000020c5   0x18  Code  Gb  hc32L110UserLpt.o [1]
+m_astcUartInstanceDataLut
+                        0x200002b8   0x28  Data  Lc  uart.o [1]
+main                    0x000043ad   0x4a  Code  Gb  appMain.o [1]
+memcpy1                 0x00001ca9   0x14  Code  Gb  utilities.o [1]
+mibReq                  0x2000003c    0xc  Data  Lc  lora.o [1]
+pfnLpTimCallback        0x20000564    0x4  Data  Lc  lpt.o [1]
+pfnTim0Callback         0x20000544    0x4  Data  Lc  bt.o [1]
+pfnTim1Callback         0x20000548    0x4  Data  Lc  bt.o [1]
+pfnTim2Callback         0x2000054c    0x4  Data  Lc  bt.o [1]
+pfnWdtCallback          0x2000056c    0x4  Data  Lc  wdt.o [1]
+regValue                0x20000250   0x64  Data  Gb  sx1276.o [1]
+round                   0x00001b7d   0x48  Code  Gb  round.o [4]
+rxIntCallback           0x000040bf   0x18  Code  Gb  hc32L110UserUart.o [1]
+spiReadData             0x00001f75   0x4e  Code  Lc  hc32L110UserSpi.o [1]
+spiWriteData            0x00001fc5   0x4c  Code  Lc  hc32L110UserSpi.o [1]
+stcLPUartIrqCb          0x20000550    0xc  Data  Lc  lpuart.o [1]
+stcRtcIrqCb             0x2000055c    0x8  Data  Lc  rtc.o [1]
+testCnt                 0x20000000    0x4  Data  Gb  appMain.o [1]
+testTimer1              0x20000014   0x10  Data  Gb  appMain.o [1]
+testTimer2              0x20000024   0x10  Data  Gb  appMain.o [1]
+testTimer2CallBack      0x00004409   0x16  Code  Gb  appMain.o [1]
+timerInit               0x0000141b    0xc  Code  Gb  timeService.o [1]
+timerIrqHandler         0x00001559   0x38  Code  Gb  timeService.o [1]
+timerListHeader         0x20000568    0x4  Data  Gb  timeService.o [1]
+timerListInit           0x00001413    0x8  Code  Gb  timeService.o [1]
+timerProcess            0x000013e1   0x32  Code  Lc  timeService.o [1]
+timerStart              0x00001427   0xe4  Code  Gb  timeService.o [1]
+timerStop               0x0000150b   0x4e  Code  Gb  timeService.o [1]
+txIntCallback           0x000040bd    0x2  Code  Gb  hc32L110UserUart.o [1]
+u8RxCnt                 0x200003e0    0x1  Data  Gb  hc32L110UserUart.o [1]
+uartRxBuffer            0x200003e4  0x100  Data  Gb  hc32L110UserUart.o [1]
+
+
+[1] = D:\flyWork\hc110Lora\Debug\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  17 810 bytes of readonly  code memory
+     235 bytes of readonly  data memory
+   1 393 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
